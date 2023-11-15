@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+    <title>Tables</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" type="image/x-icon" href="/images/faviconaa_1.png">
+
+    <!-- Metadata for documentation -->
+    <meta name="description" content="This is my first assignment for the AzubiAfrica Frontend Development programe">
+    <meta name="keywords" content="Frontend Development, AzubiAfrica">
+    <meta name="author" content="Yahaya Auwalu">
+</head>
+<body>
+    
+    <!-- Page Header -->
+    <header>
+        <h1>Learning HTML Tables</h1>
+    </header>
+
+    <!-- Page main body -->
+    <main>
+        <!-- Student table -->
+        <section>
+            <table border="1">
+                <caption>Student table</caption>
+                <!-- The table header -->
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>City</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <!-- The table body-->
+                <tbody>
+                    <tr>
+                        <td>Kumasi Yusuf</td>
+                        <td>Kano</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>John Abrahm</td>
+                        <td>Abuja</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Oluwa-Johnson Chukuka</td>
+                        <td>Enugu</td>
+                        <td>26</td>
+                    </tr>
+                </tbody>
+
+                <!-- The table footer -->
+                <tfoot>
+
+                </tfoot>
+
+            </table>
+        </section>
+
+        <br>
+        <!-- Subject time table-->
+        <section>
+            <table border="1">
+                <caption>Subject Time Tible</caption>
+                <!-- Table headers-->
+            
+                <tr>
+                    <th rowspan="6" >Hours</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+            
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Arts</td>
+                </tr>
+                
+                <tr>
+                    <td>Social</td>
+                    <td>History</td>
+                    <td>English</td>
+                    <td>Social</td>
+                    <td>Sports</td>
+                </tr>
+
+                <tr>
+                    <td colspan="5">Lunch</td>
+                </tr>
+
+                <tr>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td rowspan="2">Project</td>
+                </tr>
+
+                <tr>
+                    <td>Social</td>
+                    <td>English</td>
+                    <td>Social</td>
+                    <td>English</td>
+                </tr>
+            
+            </table>
+        </section>
+
+        <br>
+        <!-- Student Marks table -->
+        <section>
+            <table border="1">
+                <caption>Student Marks Table </caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Hillary</td>
+                        <td>Advance Web</td>
+                        <td>75</td>
+                    </tr>
+                    <tr>
+                        <td>Operating System</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Lary</td>
+                        <td>Advance Web</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Operating System</td>
+                        <td>75</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td colspan="2">Total Average 72.5</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <!-- Page footer -->
+    <footer>
+
+    </footer>
+</body>
+</html>
