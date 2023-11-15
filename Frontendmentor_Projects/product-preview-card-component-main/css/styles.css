@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.picture {
+    width: 100%;
+}
+
+.description {
+   width: 100%;
+   margin: 20px 50px;
+}
+
+.productgroup {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: hsl(228, 12%, 48%);
+}
+
+.productname {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    
+}
+
+.product_descr{
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.price {
+    margin: 20px 0;
+}
+
+.newprice {
+    font-family: 'fraunces';
+    font-size: 2rem;
+    margin-right: 10px;
+    color: green;
+}
+
+.mainprice {
+    text-decoration: line-through;
+    margin-left: 0;
+    
+}
+
+.bttn {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: green;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    width: 80%;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 601px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
